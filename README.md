@@ -1,12 +1,13 @@
-# EasyMatch
+## EasyMatch
 Easier Regex [Easy Match]
 Based off of notLegends EasyMatch for Javascript
-/////////////////////////////////////////////////
-            string str = "1.0 Testing 1x1";
+
+## Example
+```csharp            string str = "1.0 Testing 1x1";
             string pattern = "{decimal} Testing {math}";
             Matcher match = new Matcher("{", "}");
             foreach (string matches in match.match(str, pattern))
-                Console.WriteLine(matches);
+                Console.WriteLine(matches); ```
 Will ouput:
 [1.0
 1x1]
