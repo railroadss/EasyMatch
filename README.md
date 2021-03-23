@@ -4,6 +4,7 @@ Based off of notLegends [EasyMatch](https://github.com/LegendWasTaken/EasyMatch)
 
 ## Example
 ```csharp 
+using EasyMatch;
 string str = "1.0 Testing 1x1";
 string pattern = "{decimal} Testing {math}";
 Matcher match = new Matcher("{", "}");
