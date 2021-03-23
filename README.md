@@ -7,7 +7,8 @@ Based off of notLegends EasyMatch for Javascript
 string pattern = "{decimal} Testing {math}";
 Matcher match = new Matcher("{", "}");
 foreach (string matches in match.match(str, pattern))
-    Console.WriteLine(matches); ```
+    Console.WriteLine(matches);
+```
 ## Output
 Will ouput:
 [1.0
