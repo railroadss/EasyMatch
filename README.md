@@ -13,6 +13,8 @@ foreach (string matches in match.match(str, pattern))
 Will ouput:
 [1.0
 1x1]
-/////////////////////////////////////////////////
-This works by going word by word comparing your (text) and your (pattern). It looks for the differences, then replaces the (pattern text: {decimal}) with the original text {1.0}.
+
+
+```js This works by going word by word comparing your (text) and your (pattern). It looks for the differences, then replaces the (pattern text: {decimal}) with the original text {1.0}. 
+```
             
